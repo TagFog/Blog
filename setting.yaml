@@ -1,0 +1,17 @@
+mysql:
+  host: 172.27.44.42
+  port: 3306
+  db: web
+  user: root
+  password: 20020110
+  log_level: dev
+logger:
+  level: info #日志级别
+  prefix: '[web]'
+  director: log
+  show_line: true
+  log_in_console: true
+system:
+  host: "0.0.0.0"
+  port: 8080
+  env: release
